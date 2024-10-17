@@ -1,0 +1,16 @@
+apiVersion: v2
+appVersion: v3.1.6
+description: A Traefik based Kubernetes ingress controller
+home: https://traefik.io/
+icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+keywords:
+- traefik
+- ingress
+- networking
+kubeVersion: '>=1.22.0-0'
+name: traefik
+sources:
+- https://github.com/traefik/traefik
+- https://github.com/traefik/traefik-helm-chart
+type: application
+version: 32.1.1
